@@ -6,7 +6,7 @@
       yum:
         name: nginx-1.16.1
         state: absent
-        
+
 - name: Reset Local Ansible
   hosts: localhost
   tasks:
@@ -16,12 +16,12 @@
         state: absent
       with_fileglob:
         - "~/*"
-        
+ 
     - name: Remove wget
       yum:
         name: wget
         state: absent
-        
+
     - name: Remove ansible
       yum:
         name: ansible
