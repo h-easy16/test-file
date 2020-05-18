@@ -15,11 +15,11 @@
         path: "{{item}}"
         state: absent
       with_items:
-        - home/${USER}/ansible.cfg
-        - home/${USER}/hosts
-        - home/${USER}/index.html
-        - home/${USER}/set_nginx.yml
-        - home/${USER}/reset.yml
+        - /home/${USER}/ansible.cfg
+        - /home/${USER}/hosts
+        - /home/${USER}/index.html
+        - /home/${USER}/set_nginx.yml
+        - /home/${USER}/reset.yml
 
     - name: Remove wget
       yum:
