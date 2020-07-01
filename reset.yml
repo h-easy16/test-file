@@ -25,10 +25,6 @@
 - name: Reset Local Ansible
   hosts: localhost
   tasks:
-    - name: Remove wget
-      yum:
-        name: wget
-        state: absent
     - name: Remove ansible
       yum:
         name: ansible
