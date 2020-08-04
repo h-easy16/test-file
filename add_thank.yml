@@ -1,0 +1,8 @@
+---
+- name: Renew Contents
+  hosts: web1
+  tasks:
+    - name: Add Thank you
+      lineinfile:
+        path: /usr/share/nginx/html/index.html
+        line: '<h2>Thank you!</h2>'
