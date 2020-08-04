@@ -1,0 +1,8 @@
+[webservers]
+web1 ansible_host=162.133.98.102
+web2 ansible_host=162.133.98.188
+
+[webservers:vars]
+ansible_user=ibmstudent
+ansible_password=pass123456789
+ansible_sudo_pass=pass123456789
