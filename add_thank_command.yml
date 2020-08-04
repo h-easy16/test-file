@@ -1,0 +1,6 @@
+---
+- name: Renew Contents
+  hosts: web1
+  tasks:
+    - name: Add Thank you
+      command: /bin/bash /home/ibmstudent/add_thank.sh
