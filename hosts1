@@ -1,2 +1,2 @@
-162.133.98.102 ansible_user=ibmstudent ansible_password=pass123456789 ansible_sudo_pass=pass123456789
-162.133.98.188 ansible_user=ibmstudent ansible_password=pass123456789 ansible_sudo_pass=pass123456789
+198.51.100.10 ansible_user=ibmstudent ansible_ssh_private_key_file=~/.ssh/ansible_seminar.key
+198.51.100.20 ansible_user=ibmstudent ansible_ssh_private_key_file=~/.ssh/ansible_seminar.key
