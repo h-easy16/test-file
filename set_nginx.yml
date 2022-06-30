@@ -16,7 +16,7 @@
       copy:
         src: ./index.html
         dest: /usr/share/nginx/html
-        owner: ibmstudent
+        owner: kynstudent
 
     - name: Start Nginx
       systemd:
